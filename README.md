@@ -47,7 +47,7 @@
 ## Built With
 
 * **C++** (Core Engine & Logic)
-* **SplashKit SDK** (Graphics, Input & Audio)
+* **SplashKit SDK** (Graphics & Input)
 
 ## Getting Started
 
