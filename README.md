@@ -1,11 +1,11 @@
-# Shape Run: Markov Chain Infinite Runner
+# 🟦 Shape Run: The Math-Powered Infinite Runner
 
 <br />
 <div align="center">
   <h3 align="center">Shape Run</h3>
 
   <p align="center">
-    A C++ procedural platformer engine powered by stochastic Markov Chain transitions.
+    A C++ procedural platformer engine that uses Markov Chains to keep things spicy.
     <br />
     <br />
     <a href="https://github.com/Sr33kk0/Shape-Run/issues">Report Bug</a>
@@ -17,52 +17,41 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#technical-excellence">Technical Excellence</a></li>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#usage">How to Play</a></li>
+    <li><a href="#the-nerdy-stuff">The Nerdy Stuff</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
 ## About The Project
 
-**Shape Run** is a data-driven 2D side-scrolling platformer developed as a "Something Awesome" extension for the FIT1045 Introduction to Programming unit at Monash University. This engine solves the common problem of predictable or "impossible" procedural level design by implementing a **7-state Markov Chain** to ensure that map transitions remain mathematically balanced and physically navigable.
+**Shape Run** isn't your average "random" infinite runner. Most procedural games just roll a die and hope the level is playable. I built this engine for my FIT1045 unit at Monash to solve that. By using a **7-state Markov Chain**, the game actually "thinks" about what chunk should come next, making sure the difficulty is balanced and you never run into an impossible jump.
 
 
 
 ## Built With
 
-* **C++** (Core Engine & Logic)
+* **C++** (Logic)
 * **SplashKit SDK** (Graphics & Input)
 
 ## Getting Started
 
-To get a local copy up and running, follow these steps.
+Want to try it out? It's pretty straightforward.
 
 ### Prerequisites
 
-You must have the **SplashKit SDK** installed on your machine.
-* [SplashKit Installation Instructions](https://splashkit.io/installation/)
+You'll need the **SplashKit SDK** on your machine.
+* [Grab it here](https://splashkit.io/installation/)
 
 ### Installation
 
-1. Download the project folder from this repository.
-2. Open your terminal or command prompt in the project root directory.
-3. Compile the project using the SplashKit Manager:
+1. Download the project folder.
+2. Open your terminal in that folder.
+3. Compile it with one command:
    ```sh
    skm clang++ main.cpp physics.cpp graphics.cpp chunkgen.cpp types.cpp -o shape-run
 4. Run the executable:
