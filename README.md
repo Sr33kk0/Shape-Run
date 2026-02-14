@@ -69,7 +69,6 @@ You must have the **SplashKit SDK** installed on your machine.
    ```sh
    ./shape-run
 
-
 ## Usage
 
 The game starts in a menu state. Press **SPACE** to begin the infinite run.
