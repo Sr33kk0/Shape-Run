@@ -1,8 +1,6 @@
-# 🟦 Shape Run: The Math-Powered Infinite Runner
-
 <br />
 <div align="center">
-  <h3 align="center">Shape Run</h3>
+  <h1 align="center">Shape Run</h3>
 
   <p align="center">
     A C++ procedural platformer engine that uses Markov Chains to keep things spicy.
