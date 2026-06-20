@@ -20,7 +20,6 @@
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#usage">How to Play</a></li>
     <li><a href="#the-nerdy-stuff">The Nerdy Stuff</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -73,16 +72,6 @@ This project demonstrates several advanced programming concepts beyond the stand
 * **Manual Memory Management**: Features a custom-built `dynamic_array` template struct with manual heap allocation (`new`/`delete`) to handle obstacle data.
 * **Mathematical Validation**: Includes a `calculate_stationary()` function that runs a Monte Carlo simulation of 1,000 iterations to verify the balance of the probability matrix.
 * **Modular Architecture**: Separates concerns into distinct modules for Physics, Graphics, Logic, and Data, facilitating easier debugging and scalability.
-
-
-
-## Roadmap
-
-- [x] Implement 7-state Markov Chain Logic
-- [x] Create 21 unique map chunks in text format for procedural loading
-- [x] Build custom Dynamic Array template for manual heap management
-- [ ] Add persistent High Score tracking via external file I/O
-- [ ] Implement a GUI-based Level Editor for custom chunk creation
 
 ## Contact
 
